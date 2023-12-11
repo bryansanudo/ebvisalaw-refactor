@@ -45,48 +45,34 @@ const Practices = ({ darkMode }) => (
       <h2 className={styles.heading2}>
         Featured Practice <br className="sm:block hidden" /> Areas
       </h2>
-      {/*  <div className="w-full md:mt-0 mt-6">
-        <p className={`${styles.paragraph} text-left max-w-[450px]`}>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab esse
-          suscipit ipsum laudantium cupiditate voluptatibus
-        </p>
-      </div> */}
     </div>
 
-    <div className="flex flex-wrap sm:justify-start justify-center w-full  relative z-[1]">
-      <div className="grid grid-cols-1  w-full md:gap-20 gap-6 ">
-        {cards.map(({ id, img, title, subtitle, link }) => (
-          <div
-            key={id}
-            className={`flex   items-center   gap-4 rounded-[20px] ${
-              darkMode
-                ? "shadow-sm shadow-white feedback-card  "
-                : "shadow-md shadow-black"
-            }
+    <div className="grid md:grid-cols-3 grid-cols-1  w-full gap-10  ">
+      {cards.map(({ id, img, title, subtitle, link }) => (
+        <div
+          key={id}
+          className={`flex flex-col  items-center    rounded-[20px] ${
+            darkMode
+              ? "shadow-sm shadow-white feedback-card  "
+              : "shadow-md shadow-black"
+          }
 `}
-          >
-            <div className="w-1/2 hidden sm:block  ">
-              <img
-                src={img}
-                alt="star"
-                className=" w-[100%] h-[200px]  object-contain  rounded-tl-[20px] rounded-tr-[20px] sm:rounded-bl-[20px] sm:rounded-tr-[0px]"
-              />
-            </div>
-
-            <div className="sm:w-1/2 p-6 sm:px-3 sm:py-0">
-              <p className={`${styles.title} mb-4`}>{title}</p>
+        >
+          <div className="flex flex-col justify-between h-full   ">
+            <div className="p-10">
+              <p className={`${styles.title} `}>{title}</p>
               <p className={`${styles.subtitle}`}>{subtitle}</p>
-              <div className="flex items-center justify-end pt-4 mr-4">
-                <button
-                  className={`font-semibold text-[18px] link link-primary `}
-                >
-                  <Link to={link}>know more</Link>
-                </button>
-              </div>
+            </div>
+            <div className="flex items-center justify-end  mr-4 mb-6  ">
+              <button
+                className={`font-semibold text-[18px] link link-primary  `}
+              >
+                <Link to={link}>know more</Link>
+              </button>
             </div>
           </div>
-        ))}
-      </div>
+        </div>
+      ))}
     </div>
   </section>
 );

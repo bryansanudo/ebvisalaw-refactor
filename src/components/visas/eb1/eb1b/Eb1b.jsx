@@ -2,6 +2,7 @@ import Section from "@/components/common/Section";
 
 import opencompany from "@/assets/services/opencompany.webp";
 import opencompany2 from "@/assets/services/opencompany2.jpg";
+import research from "@/assets/visas/research.jpg";
 import styles from "@/style";
 
 import Benefits from "./Benefits";
@@ -34,7 +35,7 @@ const Eb1b = ({ darkMode }) => {
               } w-full h-full  rounded-[20px]`}
             >
               <img
-                src={opencompany}
+                src={research}
                 className="object-contain rounded-[20px]"
                 alt=""
               />
