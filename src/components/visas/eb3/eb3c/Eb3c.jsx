@@ -61,12 +61,12 @@ const Eb3c = ({ darkMode }) => {
 
           <div className="w-full">
             <ul
-              className={`${styles.title} border rounded-xl p-4 flex justify-center gap-20 mb-20`}
+              className={`${styles.title} border rounded-xl p-4 flex flex-col md:flex-row justify-center gap-20 mb-20`}
             >
               {listaItems.map((item, index) => (
                 <li
                   key={index}
-                  className={`cursor-pointer text-primary ${
+                  className={`cursor-pointer text-primary text-center ${
                     x === index ? "border-b-2 border-primary" : ""
                   }`}
                   onClick={() => setX(index)}

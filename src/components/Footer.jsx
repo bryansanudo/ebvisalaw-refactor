@@ -19,7 +19,7 @@ const Footer = ({ darkMode }) => {
           <p
             className={` ${
               darkMode ? "text-white" : "text-black"
-            } text-[30px] tangerine mb-2 py-2      `}
+            } text-[30px] tangerine mb-2 py-1      `}
           >
             Visa Law
           </p>

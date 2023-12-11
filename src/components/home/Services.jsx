@@ -56,7 +56,7 @@ const Services = ({ darkMode }) => (
     </div>
 
     <div className={layout.sectionImg}>
-      <div className="grid grid-cols-2 w-full gap-6 ">
+      <div className="grid md:grid-cols-2 grid-cols-1  w-full gap-6 ">
         {cards.map(({ id, logo, title }) => (
           <div
             key={id}
@@ -64,14 +64,14 @@ const Services = ({ darkMode }) => (
               darkMode
                 ? "shadow-sm shadow-white feedback-card  "
                 : "shadow-md shadow-black hover:scale-105 duration-500"
-            } p-6 flex flex-col gap-6  rounded-xl `}
+            } p-6  flex flex-col gap-6  rounded-xl `}
           >
             <div
               className={`w-[64px] h-[64px] mask mask-hexagon ${styles.flexCenter}  bg-primary`}
             >
               <div className="text-white text-3xl">{logo}</div>
             </div>
-            <p className="font-poppins font-semibold text-[20px] leading-[32px] dark:text-white">
+            <p className="font-poppins font-semibold text-[20px] leading-[32px] dark:text-white ml-6">
               {title}
             </p>
           </div>

@@ -81,7 +81,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               <div className="flex items-end ">
                 <img
                   src={darkMode ? logoWhite : logoRedBlack}
-                  className="w-14 object-contain"
+                  className="w-14  object-contain"
                   alt=""
                 />
                 <p
@@ -199,16 +199,17 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                 )}
               </div>
             </div>
-            <div className="ml-auto gap-2  md:hidden flex items-end">
+
+            <div className="ml-auto  md:hidden flex items-end">
               <img
                 src={darkMode ? logoWhite : logoRedBlack}
-                className="w-14 object-contain"
+                className="w-10 object-contain"
                 alt=""
               />
               <p
                 className={` ${
                   darkMode ? "text-white" : "text-black"
-                } text-[30px] tangerine       `}
+                } text-[24px] tangerine   `}
               >
                 Visa Law
               </p>

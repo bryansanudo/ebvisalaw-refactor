@@ -36,7 +36,7 @@ export const features = [
 
 const FeatureCard = ({ icon, title, content, index, darkMode }) => (
   <div
-    className={`flex items-center flex-row p-6 rounded-[20px] ${
+    className={`flex items-center md:flex-row flex-col gap-2 md:gap-0 p-6 rounded-[20px] ${
       index !== features.length - 1 ? "mb-6" : "mb-0"
     } ${
       darkMode
