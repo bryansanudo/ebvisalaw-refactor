@@ -1,8 +1,6 @@
-import { feedback } from "../constants";
-import styles from "../style";
-import FeedbackCard from "./FeedbackCard";
+import styles from "@/style";
+
 import text from "@/assets/text.jpg";
-import Button from "@/components/Button";
 
 import shield from "@/assets/Shield.svg";
 import { Link } from "react-router-dom";
@@ -34,15 +32,13 @@ const cards = [
   },
 ];
 
-const Practices = ({ darkMode, blue }) => (
+const Practices = ({ darkMode }) => (
   <section
     id="clients"
     className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
   >
     <div
-      className={` ${
-        blue ? " blue__gradient" : "sblue__gradient   "
-      } absolute z-[0] w-[30%] h-[70%] -right-[50%] rounded-full  bottom-0`}
+      className={`  red__gradient absolute z-[0] w-[30%] h-[70%] -right-[50%] rounded-full  bottom-0`}
     />
 
     <div className="w-full flex justify-between items-center md:flex-row flex-col sm:mb-16 mb-6 relative z-[1]">
@@ -82,9 +78,7 @@ const Practices = ({ darkMode, blue }) => (
               <p className={`${styles.subtitle}`}>{subtitle}</p>
               <div className="flex items-center justify-end pt-4 mr-4">
                 <button
-                  className={`font-semibold text-[18px] link  ${
-                    blue ? "link-primary" : "link-secondary "
-                  }`}
+                  className={`font-semibold text-[18px] link link-primary `}
                 >
                   <Link to={link}>know more</Link>
                 </button>

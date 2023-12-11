@@ -1,5 +1,4 @@
-import { clients } from "../constants";
-import styles from "../style";
+import styles from "@/style";
 import airbnb from "@/assets/airbnb.png";
 import binance from "@/assets/binance.png";
 import coinbase from "@/assets/coinbase.png";

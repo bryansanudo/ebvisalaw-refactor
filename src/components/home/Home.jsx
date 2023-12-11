@@ -1,15 +1,16 @@
-import React from "react";
 import styles from "@/style";
-import { Billing, Business, CardDeal, Clients, CTA, Hero } from "@/components";
 
-import Services from "@/components/Services";
-import Practices from "@/components/Practices";
-import Advantages from "@/components/Advantages";
-import Timeline from "@/components/Timeline";
-import Contact from "@/components/Contact";
-import Faq from "@/components/Faq";
-import { FaWhatsapp } from "react-icons/fa";
-import { FaArrowUp } from "react-icons/fa";
+import Hero from "@/components/home/Hero";
+import Business from "@/components/home/Business";
+import Achieve from "@/components/home/Achieve";
+import Ally from "@/components/home/Ally";
+import Practices from "@/components/home/Practices";
+import Services from "@/components/home/Services";
+import Advantages from "@/components/home/Advantages";
+import Timeline from "@/components/home/Timeline";
+import Clients from "@/components/home/Clients";
+
+import CTA from "@/components/CTA";
 
 const Home = ({ darkMode }) => {
   return (
@@ -26,13 +27,13 @@ const Home = ({ darkMode }) => {
         <div className={`${styles.boxWidth}`}>
           <Business darkMode={darkMode} />
 
-          <Billing />
+          <Achieve />
           <div
             className={`
                pink__gradient absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full `}
           />
-          <CardDeal />
-
+          <Ally />
+          <Practices darkMode={darkMode} />
           <Services darkMode={darkMode} />
           <Advantages darkMode={darkMode} />
           <Timeline darkMode={darkMode} />

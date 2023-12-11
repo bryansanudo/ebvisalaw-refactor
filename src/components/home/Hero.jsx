@@ -1,6 +1,6 @@
-import styles from "../style";
-import { discount, robot } from "../assets";
-import GetStarted from "./GetStarted";
+import styles from "../../style";
+import { discount, robot } from "../../assets";
+
 import test from "@/assets/test.png";
 import test2 from "@/assets/test2.png";
 import test3 from "@/assets/test3.png";

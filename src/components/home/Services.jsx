@@ -1,5 +1,4 @@
-import { card } from "../assets";
-import styles, { layout } from "../style";
+import styles, { layout } from "@/style";
 
 import test from "@/assets/test.png";
 import test2 from "@/assets/test2.png";

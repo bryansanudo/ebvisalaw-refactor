@@ -1,7 +1,7 @@
 import styles from "../style";
 
 import text from "@/assets/text.jpg";
-import Button from "@/components/Button";
+
 import Section from "@/components/common/Section";
 
 import shield from "@/assets/Discount.svg";

@@ -5,7 +5,7 @@ import { FaArrowUp } from "react-icons/fa";
 
 import Faq from "@/components/Faq";
 
-import Home from "@/components/Home";
+import Home from "@/components/home/Home";
 
 import Footer from "@/components/Footer";
 

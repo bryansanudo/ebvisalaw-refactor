@@ -1,12 +1,11 @@
-import { apple, bill, google } from "../assets";
-import styles, { layout } from "../style";
+import styles, { layout } from "@/style";
 import test from "@/assets/test.png";
 import test2 from "@/assets/test2.png";
 import test3 from "@/assets/test3.png";
 import test4 from "@/assets/test4.png";
 import test5 from "@/assets/test5.png";
 
-const Billing = () => (
+const Achieve = () => (
   <section id="product" className={layout.sectionReverse}>
     <div className={layout.sectionImgReverse}>
       <img
@@ -34,4 +33,4 @@ const Billing = () => (
   </section>
 );
 
-export default Billing;
+export default Achieve;

@@ -1,5 +1,5 @@
-import { features } from "../constants";
-import styles, { layout } from "../style";
+import { features } from "@/constants";
+import styles, { layout } from "@/style";
 
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";

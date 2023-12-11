@@ -1,11 +1,5 @@
-import { feedback } from "../constants";
-import styles from "../style";
-import FeedbackCard from "./FeedbackCard";
-import text from "@/assets/text.jpg";
-import Button from "@/components/Button";
+import styles from "@/style";
 
-import shield from "@/assets/Shield.svg";
-import Section from "@/components/common/Section";
 import CTA from "@/components/CTA";
 
 const faq = {

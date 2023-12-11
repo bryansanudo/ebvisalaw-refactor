@@ -1,17 +1,13 @@
-import React from "react";
-
 import process1 from "@/assets/process/process1.png";
 import shield from "@/assets/Shield.svg";
-import styles from "../style";
+import styles from "@/style";
 
 const Timeline = ({ darkMode }) => {
   return (
     <>
-      <section className="max-w-5xl mx-auto py-10 text-white"></section>
-
       <section
         id="clients"
-        className={`${styles.paddingY} ${styles.flexCenter} flex-col relative `}
+        className={`${styles.paddingY} ${styles.flexCenter}  flex-col relative `}
       >
         <div className="absolute z-[0] w-[20%] h-[40%] -right-[50%] rounded-full red__gradient bottom-80" />
 
@@ -24,7 +20,7 @@ const Timeline = ({ darkMode }) => {
         </p>
       </div> */}
         </div>
-        <div className="mx-6 ">
+        <div className="mx-6 w-full ">
           {/* step1 */}
           <div className="flex flex-row">
             <div className="hidden md:flex flex-col items-center ">
