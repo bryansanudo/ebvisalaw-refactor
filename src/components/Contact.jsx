@@ -18,7 +18,7 @@ const cards = [
     id: 2,
     img: <MdSchedule />,
     title: "Attention schedule",
-    subtitle: "Monday to Friday 9AM to 5PM EST",
+    subtitle: "Monday to Friday 9AM to 5PM ",
   },
   {
     id: 3,
@@ -30,7 +30,7 @@ const cards = [
     id: 4,
     img: <FaPhone />,
     title: "Phone",
-    subtitle: "+1 305 851 5995",
+    subtitle: "+1 (305) 791-5610",
   },
 ];
 
@@ -53,10 +53,8 @@ const Contact = ({ darkMode }) => (
         </h2>
         <div className="w-full md:mt-0 mt-6">
           <p className={`${styles.paragraph} text-left max-w-[600px] mb-2`}>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nihil
-            itaque assumenda doloremque! Officiis quo dolorum non illo omnis, at
-            consequuntur possimus consectetur sapiente asperiores sed voluptatum
-            reiciendis debitis eveniet.
+            Empowering Your Journey, One Immigration Case at a Time. Reach Out
+            for Expert Guidance and Personalized Solutions.
           </p>
         </div>
       </div>

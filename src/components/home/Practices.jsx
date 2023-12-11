@@ -19,7 +19,7 @@ const cards = [
     img: text,
     title: "EB-2 Visa",
     subtitle:
-      "Split into subcategories, EB-3 covers skilled workers (EB-3A), professionals (EB-3B), and unskilled workers (EB-3C). This visa accommodates diverse skill levels, providing pathways for individuals with varying qualifications seeking employment-based immigration.",
+      "The EB-2 Visa targets individuals with advanced degrees or exceptional abilities in fields like science, arts, business, or education. It may require labor certification but offers a National Interest Waiver (NIW) option for exceptional qualifications.",
     link: "/eb2",
   },
   {
@@ -27,7 +27,7 @@ const cards = [
     img: text,
     title: "EB-3 Visa",
     subtitle:
-      "The EB-3 visa is designed to address the diverse needs of the U.S. labor market by providing avenues for skilled workers, professionals, and other workers.",
+      "Split into subcategories, EB-3 covers skilled workers (EB-3A), professionals (EB-3B), and unskilled workers (EB-3C). This visa accommodates diverse skill levels, providing pathways for individuals with varying qualifications seeking employment-based immigration.",
     link: "/eb3a",
   },
 ];
