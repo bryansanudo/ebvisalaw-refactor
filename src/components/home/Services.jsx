@@ -8,26 +8,30 @@ import test5 from "@/assets/test5.png";
 import shield from "@/assets/Shield.svg";
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import { FaMoneyBillTrendUp } from "react-icons/fa6";
+import { MdFamilyRestroom } from "react-icons/md";
+import { FaAddressCard } from "react-icons/fa";
+import { IoIdCardSharp } from "react-icons/io5";
 
 const cards = [
   {
     id: 1,
-    logo: shield,
+    logo: <FaMoneyBillTrendUp />,
     title: "How to invest in the USA?",
   },
   {
     id: 2,
-    logo: shield,
+    logo: <MdFamilyRestroom />,
     title: "Family Petitions and Citizenship",
   },
   {
     id: 3,
-    logo: shield,
+    logo: <FaAddressCard />,
     title: "Special Visas for Everyone",
   },
   {
     id: 4,
-    logo: shield,
+    logo: <IoIdCardSharp />,
     title: "Visas for Entrepreneurs",
   },
 ];
@@ -65,7 +69,7 @@ const Services = ({ darkMode }) => (
             <div
               className={`w-[64px] h-[64px] mask mask-hexagon ${styles.flexCenter}  bg-primary`}
             >
-              <FaStar className="text-white text-3xl" />
+              <div className="text-white text-3xl">{logo}</div>
             </div>
             <p className="font-poppins font-semibold text-[20px] leading-[32px] dark:text-white">
               {title}

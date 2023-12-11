@@ -1,8 +1,38 @@
-import { features } from "@/constants";
 import styles, { layout } from "@/style";
 
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import star from "@/assets/Star.svg";
+import shield from "@/assets/Shield.svg";
+import send from "@/assets/Send.svg";
+import { GrUserExpert } from "react-icons/gr";
+import { MdOutlineSecurity } from "react-icons/md";
+import { BiTransfer } from "react-icons/bi";
+import { HiUserGroup } from "react-icons/hi";
+
+export const features = [
+  {
+    id: "feature-1",
+    icon: <HiUserGroup />,
+    title: "Expertise Rewards",
+    content:
+      "Unlock tantalizing combinations of legal promotions and professional rewards with our buffet of expert legal services.",
+  },
+  {
+    id: "feature-2",
+    icon: <MdOutlineSecurity />,
+    title: "100% Legal Security",
+    content:
+      "We proactively ensure the security of your confidential information and legal transactions, providing you with a shield against any legal concerns.",
+  },
+  {
+    id: "feature-3",
+    icon: <BiTransfer />,
+    title: "Case Transfer Assistance",
+    content:
+      "Effortlessly transfer your legal cases to us for expert handling. Our streamlined process can save you time and resources in managing legal matters.",
+  },
+];
 
 const FeatureCard = ({ icon, title, content, index, darkMode }) => (
   <div
@@ -17,7 +47,7 @@ const FeatureCard = ({ icon, title, content, index, darkMode }) => (
     <div
       className={`w-[64px] h-[64px] mask mask-hexagon ${styles.flexCenter} bg-primary `}
     >
-      <FaStar className="text-white text-3xl" />
+      <span className="text-white text-3xl">{icon}</span>
     </div>
     <div className="flex-1 flex flex-col ml-3">
       <h4 className={`${styles.title}`}>{title}</h4>

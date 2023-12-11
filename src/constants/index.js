@@ -1,7 +1,3 @@
-import star from "@/assets/Star.svg";
-import shield from "@/assets/Shield.svg";
-import send from "@/assets/Send.svg";
-
 import coinbase from "@/assets/coinbase.png";
 import airbnb from "@/assets/airbnb.png";
 import dropbox from "@/assets/dropbox.png";
@@ -29,7 +25,7 @@ export const navLinks = [
 export const features = [
   {
     id: "feature-1",
-    icon: star,
+    icon: "",
     title: "Expertise Rewards",
     content:
       "Unlock tantalizing combinations of legal promotions and professional rewards with our buffet of expert legal services.",

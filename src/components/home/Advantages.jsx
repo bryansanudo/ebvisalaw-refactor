@@ -1,46 +1,52 @@
 import styles from "@/style";
 import shield from "@/assets/Shield.svg";
 import { FaStar } from "react-icons/fa";
+import { GrStatusGood } from "react-icons/gr";
+import { VscServerProcess } from "react-icons/vsc";
+import { MdDashboardCustomize } from "react-icons/md";
+import { HiOutlineDocumentMagnifyingGlass } from "react-icons/hi2";
+import { GrCycle } from "react-icons/gr";
+import { MdMoreTime } from "react-icons/md";
 
 const cards = [
   {
     id: 1,
-    img: shield,
+    img: <GrStatusGood />,
     title: "Experts",
     subtitle:
       "We have the experience and the method to legalize your immigration status as soon as possible.",
   },
   {
     id: 2,
-    img: shield,
+    img: <VscServerProcess />,
     title: "Agile",
     subtitle:
       "We design an efficient, easy and understandable process for you.",
   },
   {
     id: 3,
-    img: shield,
+    img: <MdDashboardCustomize />,
     title: "Custom",
     subtitle:
       "Each case is different, each family, company, and individual needs an ear that understands their particular need and develops it.",
   },
   {
     id: 4,
-    img: shield,
+    img: <HiOutlineDocumentMagnifyingGlass />,
     title: "Comprehensive monitoring",
     subtitle:
       "We offer complete and detailed monitoring of the process, from the preparation of the form to its arrival, to ensure that everything is successful.	",
   },
   {
     id: 5,
-    img: shield,
+    img: <GrCycle />,
     title: "Integral Solution",
     subtitle:
       "In addition to the immigration process, we offer consulting with specialized financial advisors.",
   },
   {
     id: 6,
-    img: shield,
+    img: <MdMoreTime />,
     title: "Save of time and money",
     subtitle:
       "We help you save time and money with a service that avoids errors that can cause delays and even denial of visas.",
@@ -81,7 +87,7 @@ rounded-[20px]  p-8 `}
             <div
               className={`w-[64px] h-[64px] mask mask-hexagon ${styles.flexCenter} bg-primary `}
             >
-              <FaStar className="text-white text-3xl" />
+              <div className="text-white text-3xl">{img}</div>
             </div>
 
             <div className=" p-6 sm:px-3 sm:py-0">
