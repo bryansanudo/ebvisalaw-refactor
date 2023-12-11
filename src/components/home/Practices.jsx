@@ -60,7 +60,7 @@ const Practices = ({ darkMode }) => (
         >
           <div className="flex flex-col justify-between h-full   ">
             <div className="p-10">
-              <p className={`${styles.title} `}>{title}</p>
+              <p className={`${styles.title} mb-3 `}>{title}</p>
               <p className={`${styles.subtitle}`}>{subtitle}</p>
             </div>
             <div className="flex items-center justify-end  mr-4 mb-6  ">

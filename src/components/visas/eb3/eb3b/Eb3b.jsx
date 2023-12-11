@@ -2,6 +2,8 @@ import Section from "@/components/common/Section";
 
 import opencompany from "@/assets/services/opencompany.webp";
 import opencompany2 from "@/assets/services/opencompany2.jpg";
+import eb3b from "@/assets/visas/eb3b.jpg";
+import usa2 from "@/assets/visas/usa2.jpg";
 import styles from "@/style";
 
 import Benefits from "./Benefits";
@@ -34,7 +36,7 @@ const Eb3b = ({ darkMode }) => {
               } w-full h-full  rounded-[20px]`}
             >
               <img
-                src={opencompany}
+                src={eb3b}
                 className="object-contain rounded-[20px]"
                 alt=""
               />
@@ -53,7 +55,7 @@ const Eb3b = ({ darkMode }) => {
                   baccalaureate degree is the normal requirement for entry into
                   the occupation, offering an avenue for employment-based
                   immigration to the United States. Here's a structured
-                  breakdown of the key aspects of the EB-3B Visa
+                  breakdown of the key aspects of the EB-3B Visa.
                 </p>
               </div>
             </div>
@@ -102,7 +104,7 @@ const Eb3b = ({ darkMode }) => {
               } w-full h-full  rounded-[20px] `}
             >
               <img
-                src={opencompany2}
+                src={usa2}
                 className="object-contain rounded-[20px]"
                 alt=""
               />
