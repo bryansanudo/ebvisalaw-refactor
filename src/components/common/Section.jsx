@@ -17,7 +17,7 @@ const Section = ({ children, title, subtitle, darkMode }) => {
           />
           <div className="w-full flex justify-between items-center flex-col sm:mb-16 mb-6 relative z-[1]">
             <h2
-              className={`${styles.heading2} text-primary dark:text-primary   mr-4`}
+              className={`font-semibold xs:text-[48px] text-[40px]  xs:leading-[76.8px] leading-[66.8px] w-full text-primary mr-4`}
             >
               {title}
             </h2>

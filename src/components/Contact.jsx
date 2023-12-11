@@ -1,30 +1,34 @@
 import styles from "@/style";
 
 import shield from "@/assets/Star.svg";
+import { SlLocationPin } from "react-icons/sl";
+import { MdSchedule } from "react-icons/md";
+import { MdOutlineMailOutline } from "react-icons/md";
+import { FaPhone } from "react-icons/fa";
 
 import { FaStar } from "react-icons/fa";
 const cards = [
   {
     id: 1,
-    img: shield,
+    img: <SlLocationPin />,
     title: "Where we are",
     subtitle: "1401 Brickell Avenue Miami, FL 33131",
   },
   {
     id: 2,
-    img: shield,
+    img: <MdSchedule />,
     title: "Attention schedule",
     subtitle: "Monday to Friday 9AM to 5PM EST",
   },
   {
     id: 3,
-    img: shield,
+    img: <MdOutlineMailOutline />,
     title: "Email",
     subtitle: "info@ebvisalaw.com",
   },
   {
     id: 4,
-    img: shield,
+    img: <FaPhone />,
     title: "Phone",
     subtitle: "+1 305 851 5995",
   },
@@ -43,7 +47,7 @@ const Contact = ({ darkMode }) => (
       />
       <div className="w-full flex justify-between items-center flex-col sm:mb-16 mb-6 relative z-[1]">
         <h2
-          className={`${styles.heading2} text-primary dark:text-primary  mr-4`}
+          className={`font-semibold xs:text-[48px] text-[40px]  xs:leading-[76.8px] leading-[66.8px] w-full text-primary mr-4`}
         >
           Contact Us
         </h2>
@@ -170,9 +174,9 @@ const Contact = ({ darkMode }) => (
                 } `}
               >
                 <div
-                  className={`w-[40px] h-[40px] mb-1 mask mask-hexagon ${styles.flexCenter} bg-primary  `}
+                  className={`w-[64px] h-[64px] mb-1 mask mask-hexagon ${styles.flexCenter} bg-primary  `}
                 >
-                  <FaStar className="text-white text-xl" />
+                  <div className="text-white text-3xl">{img}</div>
                 </div>
                 <p className={`${styles.title}`}>{title}</p>
 
