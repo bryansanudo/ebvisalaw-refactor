@@ -1,6 +1,7 @@
 import styles from "@/style";
 
 import CTA from "@/components/CTA";
+import { useEffect } from "react";
 
 const Faq = ({ darkMode }) => {
   const questions = [
@@ -78,6 +79,9 @@ const Faq = ({ darkMode }) => {
         "For the most accurate and up-to-date information, it is recommended to visit the official website of the U.S. Citizenship and Immigration Services (USCIS) or consult with an immigration attorney specializing in employment-based immigration, feel free to contact below so we can look at your case!",
     },
   ];
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <div
       className={`dark:bg-accent mt-28   ${styles.paddingX} ${styles.flexCenter}`}

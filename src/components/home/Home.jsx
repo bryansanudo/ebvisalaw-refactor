@@ -11,8 +11,12 @@ import Timeline from "@/components/home/Timeline";
 import Clients from "@/components/home/Clients";
 
 import CTA from "@/components/CTA";
+import { useEffect } from "react";
 
 const Home = ({ darkMode }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className={`dark:bg-accent mt-24 ${styles.flexStart} `}>

@@ -1,8 +1,11 @@
-import React from "react";
+import React, { useEffect } from "react";
 import styles from "@/style";
 import CTA from "@/components/CTA";
 
 const Section = ({ children, title, subtitle, darkMode }) => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div

@@ -30,6 +30,14 @@ const cards = [
       "Split into subcategories, EB-3 covers skilled workers (EB-3A), professionals (EB-3B), and unskilled workers (EB-3C). This visa accommodates diverse skill levels, providing pathways for individuals with varying qualifications seeking employment-based immigration.",
     link: "/eb3a",
   },
+  {
+    id: 4,
+    img: text,
+    title: "EB-5 Visa",
+    subtitle:
+      " The EB-5 Visa, part of the U.S. immigration system, is designed for investors seeking to make a significant investment in a new commercial enterprise in the United States.",
+    link: "/eb5",
+  },
 ];
 
 const Practices = ({ darkMode }) => (

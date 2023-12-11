@@ -9,7 +9,8 @@ import Requirements from "./Requirements";
 import Application from "./Application";
 import { useState } from "react";
 import doctors from "@/assets/visas/doctors.jpg";
-import usa3 from "@/assets/visas/usa3.jpg";
+import usa2 from "@/assets/visas/usa3.jpg";
+import eb5 from "@/assets/visas/eb5.jpg";
 
 const Eb5 = ({ darkMode }) => {
   const [x, setX] = useState(0);
@@ -31,11 +32,7 @@ const Eb5 = ({ darkMode }) => {
                 darkMode ? "shadow-md shadow-white " : "shadow-md shadow-black "
               } w-full h-full  rounded-[20px]`}
             >
-              <img
-                src={opencompany}
-                className="object-contain rounded-[20px]"
-                alt=""
-              />
+              <img src={eb5} className="object-contain rounded-[20px]" alt="" />
             </div>
             <div className="flex items-center ">
               <div className="flex flex-col items-center justify-center">
@@ -47,7 +44,7 @@ const Eb5 = ({ darkMode }) => {
                   The EB-5 Visa, part of the U.S. immigration system, is
                   designed for investors seeking to make a significant
                   investment in a new commercial enterprise in the United
-                  States. Here's a concise breakdown of key aspects
+                  States. Here's a concise breakdown of key aspects.
                 </p>
               </div>
             </div>
@@ -96,7 +93,7 @@ const Eb5 = ({ darkMode }) => {
               } w-full h-full  rounded-[20px] `}
             >
               <img
-                src={usa3}
+                src={usa2}
                 className="object-contain rounded-[20px]"
                 alt=""
               />
