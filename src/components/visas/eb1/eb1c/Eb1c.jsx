@@ -3,6 +3,8 @@ import Section from "@/components/common/Section";
 import opencompany from "@/assets/services/opencompany.webp";
 import opencompany2 from "@/assets/services/opencompany2.jpg";
 import styles from "@/style";
+import eb1c from "@/assets/visas/eb1c.jpg";
+import usa1 from "@/assets/visas/usa1.jpg";
 
 import Benefits from "./Benefits";
 import Requirements from "./Requirements";
@@ -34,7 +36,7 @@ const Eb1c = ({ darkMode }) => {
               } w-full h-full  rounded-[20px]`}
             >
               <img
-                src={opencompany}
+                src={eb1c}
                 className="object-contain rounded-[20px]"
                 alt=""
               />
@@ -99,7 +101,7 @@ const Eb1c = ({ darkMode }) => {
               } w-full h-full  rounded-[20px] `}
             >
               <img
-                src={opencompany2}
+                src={usa1}
                 className="object-contain rounded-[20px]"
                 alt=""
               />

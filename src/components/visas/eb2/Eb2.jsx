@@ -8,6 +8,8 @@ import Benefits from "./Benefits";
 import Requirements from "./Requirements";
 import Application from "./Application";
 import { useState } from "react";
+import doctors from "@/assets/visas/doctors.jpg";
+import usa3 from "@/assets/visas/usa3.jpg";
 
 const Eb2 = ({ darkMode }) => {
   const [x, setX] = useState(0);
@@ -34,7 +36,7 @@ const Eb2 = ({ darkMode }) => {
               } w-full h-full  rounded-[20px]`}
             >
               <img
-                src={opencompany}
+                src={doctors}
                 className="object-contain rounded-[20px]"
                 alt=""
               />
@@ -99,7 +101,7 @@ const Eb2 = ({ darkMode }) => {
               } w-full h-full  rounded-[20px] `}
             >
               <img
-                src={opencompany2}
+                src={usa3}
                 className="object-contain rounded-[20px]"
                 alt=""
               />

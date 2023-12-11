@@ -95,14 +95,14 @@ const Faq = ({ darkMode }) => {
           >
             Frequently Asked Questions
           </h2>
-          <div className="w-full md:mt-0 mt-6">
+          {/* <div className="w-full md:mt-0 mt-6">
             <p className={`${styles.paragraph} text-left max-w-[600px] mb-2`}>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum nihil
               itaque assumenda doloremque! Officiis quo dolorum non illo omnis,
               at consequuntur possimus consectetur sapiente asperiores sed
               voluptatum reiciendis debitis eveniet.
             </p>
-          </div>
+          </div> */}
         </div>
         <section
           id="clients"
