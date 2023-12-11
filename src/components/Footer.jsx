@@ -50,13 +50,13 @@ const Footer = ({ darkMode }) => {
       <nav>
         <header className={`${styles.title}`}>Quick Links</header>
         <div className={`${styles.subtitle} hover:font-medium cursor-pointer`}>
-          <Link to="/eb1">EB-1</Link>
+          <Link to="/eb1a">EB-1</Link>
         </div>
         <div className={`${styles.subtitle} hover:font-medium cursor-pointer`}>
           <Link to="/eb2">EB-2</Link>
         </div>
         <div className={`${styles.subtitle} hover:font-medium cursor-pointer`}>
-          <Link to="/eb3">EB-3</Link>
+          <Link to="/eb3a">EB-3</Link>
         </div>
         <div className={`${styles.subtitle} hover:font-medium cursor-pointer`}>
           <Link to="/faq">FAQ</Link>

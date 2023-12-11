@@ -12,7 +12,7 @@ const cards = [
     title: "EB-1 Visa",
     subtitle:
       "Designed for those with extraordinary abilities, outstanding professors, researchers, and certain executives or managers, the EB-1 Visa is a preferred option that doesn't require labor certification. ",
-    link: "/eb1",
+    link: "/eb1a",
   },
   {
     id: 2,
@@ -28,7 +28,7 @@ const cards = [
     title: "EB-3 Visa",
     subtitle:
       "The EB-3 visa is designed to address the diverse needs of the U.S. labor market by providing avenues for skilled workers, professionals, and other workers.",
-    link: "/eb3",
+    link: "/eb3a",
   },
 ];
 

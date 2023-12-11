@@ -8,7 +8,7 @@ const Achieve = () => (
       <img
         src={test5}
         alt="billing"
-        className="w-[100%] h-[100%] relative z-[5]"
+        className="w-[100%] h-[100%] object-contain relative z-[5]"
       />
 
       <div

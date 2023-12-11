@@ -35,7 +35,7 @@ const Eb1a = ({ darkMode }) => {
             >
               <img
                 src={opencompany}
-                className="object-contain rounded-[20px]"
+                className="object-contain rounded-[20px] "
                 alt=""
               />
             </div>
