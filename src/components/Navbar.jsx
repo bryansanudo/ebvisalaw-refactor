@@ -15,6 +15,11 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 
   const links2 = [
     {
+      id: 4,
+      name: "Visa EB-5",
+      link: "/eb5",
+    },
+    {
       id: 5,
       name: "FAQ",
       link: "/faq",

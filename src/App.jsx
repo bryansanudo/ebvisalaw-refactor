@@ -19,6 +19,7 @@ import Eb2 from "@/components/visas/eb2/Eb2";
 import Eb3a from "@/components/visas/eb3/eb3a/Eb3a";
 import Eb3b from "@/components/visas/eb3/eb3b/Eb3b";
 import Eb3c from "@/components/visas/eb3/eb3c/Eb3c";
+import Eb5 from "@/components/visas/eb5/Eb5";
 
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
@@ -52,6 +53,8 @@ const App = () => {
           <Route path="/eb3a" element={<Eb3a darkMode={darkMode} />} />
           <Route path="/eb3b" element={<Eb3b darkMode={darkMode} />} />
           <Route path="/eb3c" element={<Eb3c darkMode={darkMode} />} />
+          {/* eb5 */}
+          <Route path="/eb5" element={<Eb5 darkMode={darkMode} />} />
         </Routes>
 
         <div
