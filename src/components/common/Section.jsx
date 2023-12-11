@@ -1,8 +1,7 @@
 import React from "react";
 import styles from "@/style";
 import CTA from "@/components/CTA";
-import opencompany from "@/assets/services/opencompany.webp";
-import { GoDot } from "react-icons/go";
+
 const Section = ({ children, title, subtitle, darkMode }) => {
   return (
     <>

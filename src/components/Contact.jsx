@@ -1,11 +1,7 @@
-import styles from "../style";
+import styles from "@/style";
 
-import text from "@/assets/text.jpg";
+import shield from "@/assets/Star.svg";
 
-import Section from "@/components/common/Section";
-
-import shield from "@/assets/Discount.svg";
-import { BiMailSend } from "react-icons/bi";
 import { FaStar } from "react-icons/fa";
 const cards = [
   {

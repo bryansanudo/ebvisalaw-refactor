@@ -1,4 +1,4 @@
-import styles from "./style";
+import styles from "@/style";
 
 import Navbar from "@/components/Navbar";
 import { FaArrowUp } from "react-icons/fa";

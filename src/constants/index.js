@@ -1,19 +1,11 @@
-import {
-  people01,
-  people02,
-  people03,
-  facebook,
-  instagram,
-  linkedin,
-  twitter,
-  airbnb,
-  binance,
-  coinbase,
-  dropbox,
-  send,
-  shield,
-  star,
-} from "../assets";
+import star from "@/assets/Star.svg";
+import shield from "@/assets/Shield.svg";
+import send from "@/assets/Send.svg";
+
+import coinbase from "@/assets/coinbase.png";
+import airbnb from "@/assets/airbnb.png";
+import dropbox from "@/assets/dropbox.png";
+import binance from "@/assets/binance.png";
 
 export const navLinks = [
   {
@@ -55,33 +47,6 @@ export const features = [
     title: "Case Transfer Assistance",
     content:
       "Effortlessly transfer your legal cases to us for expert handling. Our streamlined process can save you time and resources in managing legal matters.",
-  },
-];
-
-export const feedback = [
-  {
-    id: "feedback-1",
-    content:
-      "Exceptional legal expertise! Our firm's success is a testament to the unparalleled support provided by this legal buffet. They navigate the complexities of the legal world with precision and dedication.",
-    name: "Herman Jensen",
-    title: "Founder & Leader",
-    img: people01,
-  },
-  {
-    id: "feedback-2",
-    content:
-      "The legal buffet has made our journey smoother. Legal intricacies are handled with ease, allowing us to focus on our clients. Grateful for the expertise and professionalism.",
-    name: "Steve Mark",
-    title: "Founder & Leader",
-    img: people02,
-  },
-  {
-    id: "feedback-3",
-    content:
-      "In the legal realm, having the right partners is crucial. This legal buffet's rich experience in finance and international trade sets them apart. A valuable asset to any legal practice.",
-    name: "Kenn Gallagher",
-    title: "Founder & Leader",
-    img: people03,
   },
 ];
 
@@ -166,29 +131,6 @@ export const footerLinks = [
         link: "https://www.hoobank.com/become-a-partner/",
       },
     ],
-  },
-];
-
-export const socialMedia = [
-  {
-    id: "social-media-1",
-    icon: instagram,
-    link: "https://www.instagram.com/",
-  },
-  {
-    id: "social-media-2",
-    icon: facebook,
-    link: "https://www.facebook.com/",
-  },
-  {
-    id: "social-media-3",
-    icon: twitter,
-    link: "https://www.twitter.com/",
-  },
-  {
-    id: "social-media-4",
-    icon: linkedin,
-    link: "https://www.linkedin.com/",
   },
 ];
 

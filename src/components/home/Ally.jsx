@@ -1,10 +1,7 @@
 import styles, { layout } from "@/style";
 
-import test from "@/assets/test.png";
-import test2 from "@/assets/test2.png";
 import test3 from "@/assets/test3.png";
-import test4 from "@/assets/test4.png";
-import test5 from "@/assets/test5.png";
+
 import { Link } from "react-router-dom";
 
 const Ally = () => (

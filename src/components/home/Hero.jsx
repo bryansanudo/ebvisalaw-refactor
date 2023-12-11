@@ -1,5 +1,4 @@
-import styles from "../../style";
-import { discount, robot } from "../../assets";
+import styles from "@/style";
 
 import test from "@/assets/test.png";
 import test2 from "@/assets/test2.png";

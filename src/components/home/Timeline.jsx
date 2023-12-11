@@ -1,5 +1,3 @@
-import process1 from "@/assets/process/process1.png";
-import shield from "@/assets/Shield.svg";
 import styles from "@/style";
 
 const Timeline = ({ darkMode }) => {
