@@ -38,7 +38,7 @@ const Home = ({ darkMode }) => {
           />
           <Ally />
           <Practices darkMode={darkMode} />
-          <Services darkMode={darkMode} />
+          {/*      <Services darkMode={darkMode} /> */}
           <Advantages darkMode={darkMode} />
           <Timeline darkMode={darkMode} />
           <Clients />

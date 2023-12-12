@@ -12,44 +12,44 @@ const cards = [
   {
     id: 1,
     img: <GrStatusGood />,
-    title: "Experts",
+    title: "Experienced Professionals",
     subtitle:
-      "We have the experience and the method to legalize your immigration status as soon as possible.",
+      "Leverage our wealth of experience and proven methods to expedite the legalization of your immigration status.",
   },
   {
     id: 2,
     img: <VscServerProcess />,
-    title: "Agile",
+    title: "Agility at the Core",
     subtitle:
-      "We design an efficient, easy and understandable process for you.",
+      "We craft an efficient, user-friendly process tailored for your ease of understanding and swift navigation.",
   },
   {
     id: 3,
     img: <MdDashboardCustomize />,
-    title: "Custom",
+    title: "Tailored Solutions",
     subtitle:
-      "Each case is different, each family, company, and individual needs an ear that understands their particular need and develops it.",
+      "Recognizing the uniqueness of each case, we provide attentive ears to understand the specific needs of families, companies, and individuals, tailoring solutions accordingly.",
   },
   {
     id: 4,
     img: <HiOutlineDocumentMagnifyingGlass />,
-    title: "Comprehensive monitoring",
+    title: "Comprehensive Oversight",
     subtitle:
-      "We offer complete and detailed monitoring of the process, from the preparation of the form to its arrival, to ensure that everything is successful.	",
+      "From form preparation to its successful submission, we ensure thorough and detailed monitoring of the entire process for a successful outcome.	",
   },
   {
     id: 5,
     img: <GrCycle />,
-    title: "Integral Solution",
+    title: "Holistic Solutions",
     subtitle:
-      "In addition to the immigration process, we offer consulting with specialized financial advisors.",
+      "Beyond immigration processes, we offer consultations with specialized financial advisors, providing a comprehensive solution.",
   },
   {
     id: 6,
     img: <MdMoreTime />,
-    title: "Save of time and money",
+    title: "Time and Cost Savings",
     subtitle:
-      "We help you save time and money with a service that avoids errors that can cause delays and even denial of visas.",
+      "Our service not only saves you time but also helps you avoid costly errors that could lead to delays or visa denials, offering a valuable saving of both time and money.",
   },
 ];
 
@@ -91,7 +91,7 @@ rounded-[20px]  p-8 `}
             </div>
 
             <div className=" p-6 sm:px-3 sm:py-0">
-              <p className={`${styles.title}`}>{title}</p>
+              <p className={`${styles.title} mb-1`}>{title}</p>
               <p className={`${styles.subtitle}`}>{subtitle}</p>
             </div>
           </div>

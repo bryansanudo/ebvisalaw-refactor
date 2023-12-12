@@ -14,23 +14,23 @@ export const features = [
   {
     id: "feature-1",
     icon: <HiUserGroup />,
-    title: "Expertise Rewards",
+    title: "Unlocking Legal Excellence",
     content:
-      "Unlock tantalizing combinations of legal promotions and professional rewards with our buffet of expert legal services.",
+      "Discover enticing assortments of legal promotions and professional rewards through our array of expert legal services.",
   },
   {
     id: "feature-2",
     icon: <MdOutlineSecurity />,
-    title: "100% Legal Security",
+    title: "Complete Legal Assurance",
     content:
-      "We proactively ensure the security of your confidential information and legal transactions, providing you with a shield against any legal concerns.",
+      "We take proactive measures to safeguard your confidential information and legal transactions, offering you a shield against any potential legal concerns.",
   },
   {
     id: "feature-3",
     icon: <BiTransfer />,
-    title: "Case Transfer Assistance",
+    title: "Seamless Case Transfers",
     content:
-      "Effortlessly transfer your legal cases to us for expert handling. Our streamlined process can save you time and resources in managing legal matters.",
+      "Effortlessly entrust your legal cases to our expert handling. Our streamlined process can save you time and resources in the management of legal matters.",
   },
 ];
 
@@ -50,7 +50,7 @@ const FeatureCard = ({ icon, title, content, index, darkMode }) => (
       <span className="text-white text-3xl">{icon}</span>
     </div>
     <div className="flex-1 flex flex-col ml-3">
-      <h4 className={`${styles.title}`}>{title}</h4>
+      <h4 className={`${styles.title} mb-1`}>{title}</h4>
       <p className={`${styles.subtitle}`}>{content}</p>
     </div>
   </div>
