@@ -41,7 +41,7 @@ const Home = ({ darkMode }) => {
           {/*      <Services darkMode={darkMode} /> */}
           <Advantages darkMode={darkMode} />
           <Timeline darkMode={darkMode} />
-          <Clients />
+          {/*  <Clients /> */}
           <CTA darkMode={darkMode} />
         </div>
       </div>

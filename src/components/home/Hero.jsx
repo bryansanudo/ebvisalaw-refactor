@@ -24,7 +24,7 @@ const Hero = ({ darkMode }) => {
           <FaStar className={` text-primary `} />
           <p className={`font-normal  text-[18px] leading-[30.8px] ml-2`}>
             <span className="text-white ">
-              Immigration Law Office in the US
+              Immigration Law Services in the US
             </span>
           </p>
         </div>
