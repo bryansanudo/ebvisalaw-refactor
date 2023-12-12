@@ -45,8 +45,8 @@ const Timeline = ({ darkMode }) => {
 
                   <div className=" flex items-center justify-center h-24 md:mt-2  ">
                     <p className="font-poppins font-normal text-[16px] leading-[24px] dark:text-dimWhite">
-                      Let's talk about your goals and understand how we can help
-                      you achieve them.
+                      Initiate the process with a discussion about your goals.
+                      Let's explore how we can assist you in achieving them.
                     </p>
                   </div>
                 </div>
@@ -67,7 +67,7 @@ const Timeline = ({ darkMode }) => {
           <div className="flex flex-row-reverse">
             <div className="hidden md:flex flex-col items-center">
               <div className="w-40 py-5  bg-black-gradient-2 rounded-[20px]   mr-4 flex flex-col items-center justify-center">
-                <div className="text-3xl font-black text-white"> 02</div>
+                <div className="text-3xl font-black text-white">02</div>
                 <div className="mb-2 font-poppins font-semibold text-[20px] leading-[32px] text-white text-center">
                   Profile evaluation
                 </div>
@@ -85,13 +85,12 @@ const Timeline = ({ darkMode }) => {
               <div className="flex md:flex-row flex-col items-center">
                 <div className="flex-auto">
                   <div className="md:hidden font-poppins font-semibold text-[20px] leading-[32px] dark:text-white">
-                    <span className="font-black">Step 2</span> - Profile
-                    evaluation
+                    <span className="font-black">02</span> - Profile evaluation
                   </div>
 
                   <div className="flex items-center justify-center h-36 ">
                     <p className="font-poppins font-normal text-[16px] leading-[24px] dark:text-dimWhite">
-                      We will carefully analyze your profile to define the best
+                      Thoroughly examine your profile to define the optimal
                       strategy for your case.
                     </p>
                   </div>
@@ -131,14 +130,14 @@ const Timeline = ({ darkMode }) => {
                     className="md:hidden  font-poppins font-semibold text-[20px] leading-[32px] text-white
 "
                   >
-                    <span className="font-black ">Step 3</span> - Strategy
+                    <span className="font-black ">03</span> - Strategy
                     presentation meeting
                   </div>
 
                   <div className="flex items-center justify-center h-36 md:mt-2 ">
                     <p className="font-poppins font-normal text-[16px] leading-[24px] dark:text-dimWhite">
-                      We will present you with a personalized strategy and
-                      answer all your questions.
+                      Present you with a personalized strategy, addressing all
+                      your queries.
                     </p>
                   </div>
                 </div>
@@ -161,7 +160,7 @@ const Timeline = ({ darkMode }) => {
               <div className="w-60 py-5  bg-black-gradient-2 rounded-[20px]   mr-4 flex flex-col items-center justify-center">
                 <div className="text-3xl font-black text-white"> 04</div>
                 <div className="font-poppins font-semibold text-[20px] leading-[32px] text-white text-center">
-                  Signature of the legal services contract
+                  Signing of Legal Services Contract
                 </div>
               </div>
             </div>
@@ -174,14 +173,14 @@ const Timeline = ({ darkMode }) => {
               <div className="flex md:flex-row flex-col items-center">
                 <div className="flex-auto">
                   <div className="md:hidden font-poppins font-semibold text-[20px] leading-[32px] text-white">
-                    <span className="font-black">Step 4</span> - Signature of
-                    the legal services contract
+                    <span className="font-black">044</span> - Signing of Legal
+                    Services Contract
                   </div>
 
                   <div className="flex items-center justify-center h-36 ">
                     <p className="font-poppins font-normal text-[16px] leading-[24px] dark:text-dimWhite">
-                      Formalizing the Legal Partnership: A Contract Successfully
-                      Signed with the Lawyer.
+                      Formalize the Legal Partnership: Successfully sign the
+                      contract with the lawyer.
                     </p>
                   </div>
                 </div>
@@ -217,14 +216,13 @@ const Timeline = ({ darkMode }) => {
               <div className="flex md:flex-row flex-col items-center">
                 <div className="flex-auto">
                   <div className="md:hidden font-poppins font-semibold text-[20px] leading-[32px] text-white">
-                    <span className="font-black">Step 5</span> - Case
-                    structuring
+                    <span className="font-black">05</span> - Case structuring
                   </div>
 
                   <div className="flex items-center justify-center h-36 md:mt-2 ">
                     <p className="font-poppins font-normal text-[16px] leading-[24px] dark:text-dimWhite">
-                      We will prepare your case with precision, guaranteeing the
-                      best chance of success.
+                      Precisely structure your case, ensuring the highest chance
+                      of success.
                     </p>
                   </div>
                 </div>
@@ -245,9 +243,9 @@ const Timeline = ({ darkMode }) => {
           <div className="flex flex-row-reverse">
             <div className="hidden md:flex flex-col items-center">
               <div className="w-64 py-5  bg-black-gradient-2 rounded-[20px]   mr-4 flex flex-col items-center justify-center">
-                <div className="text-3xl font-black text-white"> 06</div>
+                <div className="text-3xl font-black text-white">06</div>
                 <div className="font-poppins font-semibold text-[20px] leading-[32px] text-white text-center">
-                  Presentation of the visa request
+                  Visa Request Presentation
                 </div>
               </div>
             </div>
@@ -260,14 +258,14 @@ const Timeline = ({ darkMode }) => {
               <div className="flex md:flex-row flex-col items-center">
                 <div className="flex-auto">
                   <div className="md:hidden font-poppins font-semibold text-[20px] leading-[32px] text-white">
-                    <span className="font-black">Step 6</span> - Presentation of
-                    the visa request
+                    <span className="font-black">06</span> - Visa Request
+                    Presentation
                   </div>
 
                   <div className="flex items-center justify-center h-36">
                     <p className="font-poppins font-normal text-[16px] leading-[24px] dark:text-dimWhite">
-                      We will send your case following all the necessary
-                      deadlines and protocols.
+                      Submit your case, adhering to all necessary deadlines and
+                      protocols.
                     </p>
                   </div>
                 </div>
@@ -290,7 +288,7 @@ const Timeline = ({ darkMode }) => {
               <div className="w-60 py-5  bg-black-gradient-2 rounded-[20px]   mr-4 flex flex-col items-center justify-center">
                 <div className="text-3xl font-black text-white">07</div>
                 <div className="font-poppins font-semibold text-[20px] leading-[32px] text-white text-center">
-                  Waiting for immigration response
+                  Monitoring Immigration Response
                 </div>
               </div>
             </div>
@@ -303,13 +301,14 @@ const Timeline = ({ darkMode }) => {
               <div className="flex md:flex-row flex-col items-center">
                 <div className="flex-auto">
                   <div className="md:hidden font-poppins font-semibold text-[20px] leading-[32px] text-white">
-                    <span className="font-black">Step 7</span> - Waiting for
-                    immigration response
+                    <span className="font-black">07</span> - Monitoring
+                    Immigration Response
                   </div>
 
                   <div className="flex items-center justify-center h-36 md:mt-2 ">
                     <p className="font-poppins font-normal text-[16px] leading-[24px] dark:text-dimWhite">
-                      We will follow your process closely and keep you informed.
+                      Closely monitor your process and keep you informed of any
+                      developments.
                     </p>
                   </div>
                 </div>
@@ -332,7 +331,7 @@ const Timeline = ({ darkMode }) => {
               <div className="w-40 py-5  bg-black-gradient-2 rounded-[20px]   mr-4 flex flex-col items-center justify-center">
                 <div className="text-3xl font-black text-white">08</div>
                 <div className="font-poppins font-semibold text-[20px] leading-[32px] text-white text-center">
-                  Everything ready!
+                  All Set and Ready!
                 </div>
               </div>
             </div>
@@ -345,15 +344,13 @@ const Timeline = ({ darkMode }) => {
               <div className="flex md:flex-row flex-col items-center">
                 <div className="flex-auto">
                   <div className="md:hidden font-poppins font-semibold text-[20px] leading-[32px] text-white">
-                    <span className="font-black">Step 8</span> - Everything
-                    ready!
+                    <span className="font-black">Step 8</span> - All Set and
+                    Ready!
                   </div>
 
                   <div className="flex items-center justify-center h-36 md:mt-2 md:mx-10 ">
                     <p className="font-poppins font-normal text-[16px] leading-[24px] dark:text-dimWhite">
-                      Now it's time to go! If approved, your process will be
-                      finalized and you will receive everything you need for
-                      your trip
+                      Now it's time to go!
                     </p>
                   </div>
                 </div>
