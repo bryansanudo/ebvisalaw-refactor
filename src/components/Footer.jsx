@@ -10,7 +10,7 @@ const Footer = ({ darkMode }) => {
   return (
     <footer className="footer justify-between  border-t p-6 mb-10 ">
       <div>
-        <div className="flex items-end  ">
+        <div className="flex gap-1 items-end  ">
           <img
             src={darkMode ? logoWhite : logoRedBlack}
             className="w-14 object-contain"

@@ -70,15 +70,15 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 
   return (
     <div
-      className={` ${styles.paddingX} ${styles.flexCenter} ${
-        isMenuShown ? "bg-gray-500" : ""
-      }  absolute w-full z-50   ${darkMode ? "" : ""}    `}
+      className={` ${styles.paddingX} ${
+        styles.flexCenter
+      } fixed  w-full z-50   ${darkMode ? "bg-[#0D0E1C]" : "bg-gray-100"}    `}
     >
       <div className={`${styles.boxWidth} `}>
         <div className="w-full h-20 dark:text-white ">
           <div className="flex justify-start   md:justify-end md:gap-5 items-center  mx-auto  h-full">
             <div className="mr-auto    hidden md:flex items-end">
-              <div className="flex items-end ">
+              <div className="flex gap-1 items-end ">
                 <img
                   src={darkMode ? logoWhite : logoRedBlack}
                   className="w-14  object-contain"
@@ -200,7 +200,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
               </div>
             </div>
 
-            <div className="ml-auto  md:hidden flex items-end">
+            <div className="ml-auto gap-1 md:hidden flex items-end">
               <img
                 src={darkMode ? logoWhite : logoRedBlack}
                 className="w-10 object-contain"
@@ -219,10 +219,8 @@ const Navbar = ({ darkMode, setDarkMode }) => {
 
         <div
           className={`absolute w-full  z-[50] left-0 h-fit py-12 lg:hidden flex justify-center text-center text-2xl duration-500 ${
-            isMenuShown
-              ? "top-20 rounded-b-2xl bg-gray-500 opacity-100"
-              : "top-[-600px]"
-          }`}
+            isMenuShown ? "top-20 rounded-b-2xl  opacity-100" : "top-[-600px]"
+          } ${darkMode ? "bg-[#0D0E1C]" : "bg-gray-100"}`}
         >
           <ul
             className={`flex flex-col gap-6 text-left dark:text-white ${

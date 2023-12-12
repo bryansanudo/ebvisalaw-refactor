@@ -71,14 +71,14 @@ const App = () => {
           </div>
         </div>
       </div>
-      <div
+      {/* <div
         onClick={() => window.scrollTo(0, 0)}
         className={`fixed flex items-center justify-center hover:scale-110 duration-700 rounded-full w-8 h-8   z-[100] right-3 bottom-3  cursor-pointer 
           bg-primary
          `}
       >
         <FaArrowUp className="animate-pulse text-white" />
-      </div>
+      </div> */}
     </div>
   );
 };
