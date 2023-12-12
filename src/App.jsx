@@ -21,6 +21,8 @@ import Eb3b from "@/components/visas/eb3/eb3b/Eb3b";
 import Eb3c from "@/components/visas/eb3/eb3c/Eb3c";
 import Eb5 from "@/components/visas/eb5/Eb5";
 
+import Terms from "@/components/TermsOfServices";
+import Privacy from "@/components/PrivacyPolicy";
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
@@ -42,6 +44,8 @@ const App = () => {
 
           <Route path="/contact" element={<Contact darkMode={darkMode} />} />
           <Route path="/faq" element={<Faq darkMode={darkMode} />} />
+          <Route path="/terms" element={<Terms darkMode={darkMode} />} />
+          <Route path="/privacy" element={<Privacy darkMode={darkMode} />} />
 
           {/* eb1 */}
           <Route path="/eb1a" element={<Eb1a darkMode={darkMode} />} />

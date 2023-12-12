@@ -65,12 +65,16 @@ const Footer = ({ darkMode }) => {
 
       <nav>
         <header className={`${styles.title}`}>Legal</header>
-        <a className={`${styles.subtitle} hover:font-medium cursor-pointer`}>
-          Terms of use
-        </a>
-        <a className={`${styles.subtitle} hover:font-medium cursor-pointer`}>
-          Privacy policy
-        </a>
+        <Link to="/terms">
+          <p className={`${styles.subtitle} hover:font-medium cursor-pointer`}>
+            Terms of use
+          </p>
+        </Link>
+        <Link to="/privacy">
+          <p className={`${styles.subtitle} hover:font-medium cursor-pointer`}>
+            Privacy policy
+          </p>
+        </Link>
       </nav>
     </footer>
   );
