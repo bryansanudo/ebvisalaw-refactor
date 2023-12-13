@@ -25,7 +25,7 @@ const Eb1c = ({ darkMode }) => {
     <>
       <Section
         darkMode={darkMode}
-        title="EB-1C (Multinational Executives and Managers)"
+        title="Multinational Manager or Executive Visa"
         subtitle="The EB-1C visa facilitates the transfer of multinational executives and managers who have been employed for at least one of the preceding three years by the overseas affiliate, parent, subsidiary, or branch of the U.S. employer. This category is crucial for multinational corporations seeking to bring key personnel to the United States."
       >
         <div className="w-full flex flex-col gap-6 md:gap-20 mb-20  ">
@@ -48,11 +48,11 @@ const Eb1c = ({ darkMode }) => {
                   today's entrepreneur
                 </h2> */}
                 <p className={`${styles.subtitle}`}>
-                  The EB-1C Visa, classified as the Multinational Manager or
-                  Executive Visa, is a distinctive immigration option within the
-                  United States for managers or executives of multinational
-                  companies seeking to transfer to a U.S. office. Here's a
-                  structured breakdown of the key components of the EB-1C Visa
+                  The Multinational Manager or Executive Visa, is a distinctive
+                  immigration option within the United States for managers or
+                  executives of multinational companies seeking to transfer to a
+                  U.S. office. Here's a structured breakdown of the key
+                  components of the Multinational Manager or Executive Visa
                 </p>
               </div>
             </div>
@@ -86,12 +86,12 @@ const Eb1c = ({ darkMode }) => {
                 </h2> */}
 
                 <p className={`${styles.subtitle}`}>
-                  In summary, the EB-1C Visa offers advantages such as
-                  intra-company transfer, permanent residency, and potential
-                  expedited processing. Meeting the specific requirements,
-                  including the managerial or executive role and the
-                  relationship between entities, is crucial for a successful
-                  application.
+                  In summary, the Multinational Manager or Executive Visa offers
+                  advantages such as intra-company transfer, permanent
+                  residency, and potential expedited processing. Meeting the
+                  specific requirements, including the managerial or executive
+                  role and the relationship between entities, is crucial for a
+                  successful application.
                 </p>
               </div>
             </div>

@@ -25,7 +25,8 @@ const Eb2 = ({ darkMode }) => {
     <>
       <Section
         darkMode={darkMode}
-        title="EB-2 (Advanced Degrees or Exceptional Abilities)"
+        title="Advanced Degrees or Exceptional Abilities Visa
+        "
         subtitle="The EB-2 visa is for professionals with advanced degrees or exceptional abilities in their respective fields. It aims to attract individuals with a high level of expertise, contributing to the advancement of their industries."
       >
         <div className="w-full flex flex-col gap-6 md:gap-20 mb-20  ">
@@ -48,11 +49,11 @@ const Eb2 = ({ darkMode }) => {
                   today's entrepreneur
                 </h2> */}
                 <p className={`${styles.subtitle}`}>
-                  The EB-2 Visa, belonging to the employment-based visa
-                  category, is designed for individuals with advanced degrees or
-                  exceptional abilities in various fields who seek to immigrate
-                  to the United States. Here's a methodical breakdown of the key
-                  elements of the EB-2 Visa
+                  The EB-2 Visa, part of the employment-based visa category, is
+                  tailored for individuals with advanced degrees or exceptional
+                  abilities in various fields who aim to immigrate to the United
+                  States. Here's a methodical breakdown of the key elements of
+                  the Advanced Degrees or Exceptional Abilities Visa:
                 </p>
               </div>
             </div>
@@ -90,8 +91,8 @@ const Eb2 = ({ darkMode }) => {
                   residency, a potential expedited path to immigration, and
                   options like the National Interest Waiver for some applicants.
                   Meeting the stringent requirements, including advanced degrees
-                  or exceptional abilities, is crucial for a successful EB-2
-                  Visa application.
+                  or exceptional abilities, is crucial for a successful Advanced
+                  Degrees or Exceptional Abilities Visa application.
                 </p>
               </div>
             </div>

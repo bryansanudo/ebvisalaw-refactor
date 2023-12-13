@@ -5,6 +5,7 @@ import opencompany2 from "@/assets/services/opencompany2.jpg";
 import eb3b from "@/assets/visas/eb3b.jpg";
 import usa2 from "@/assets/visas/usa2.jpg";
 import styles from "@/style";
+import doctors from "@/assets/visas/doctors.jpg";
 
 import Benefits from "./Benefits";
 import Requirements from "./Requirements";
@@ -25,7 +26,8 @@ const Eb3b = ({ darkMode }) => {
     <>
       <Section
         darkMode={darkMode}
-        title="EB-3B (Professionals)"
+        title="Professionals Visa
+        "
         subtitle="The EB-3B visa is for professionals with a U.S. baccalaureate degree or a foreign equivalent degree that is typically required for the profession. It is suitable for individuals seeking professional-level positions in the United States."
       >
         <div className="w-full flex flex-col gap-6 md:gap-20 mb-20  ">
@@ -36,7 +38,7 @@ const Eb3b = ({ darkMode }) => {
               } w-full h-full  rounded-[20px]`}
             >
               <img
-                src={eb3b}
+                src={doctors}
                 className="object-contain rounded-[20px]"
                 alt=""
               />
@@ -48,14 +50,14 @@ const Eb3b = ({ darkMode }) => {
                   today's entrepreneur
                 </h2> */}
                 <p className={`${styles.subtitle}`}>
-                  The EB-3B Visa, falling within the employment-based visa
-                  category, is tailored for individuals classified as
-                  "Professionals" This category is designed for those with U.S.
-                  baccalaureate or foreign equivalent degree, and that a
+                  The Professionals Visa, falling within the employment-based
+                  visa category, is tailored for individuals classified as
+                  "Professionals." This category is designed for those with a
+                  U.S. baccalaureate or foreign equivalent degree, where a
                   baccalaureate degree is the normal requirement for entry into
                   the occupation, offering an avenue for employment-based
                   immigration to the United States. Here's a structured
-                  breakdown of the key aspects of the EB-3B Visa.
+                  breakdown of the key aspects of the Professionals Visa.
                 </p>
               </div>
             </div>
@@ -89,7 +91,7 @@ const Eb3b = ({ darkMode }) => {
                 </h2> */}
 
                 <p className={`${styles.subtitle}`}>
-                  In summary, the EB-3B Visa is designed for "Professionals"
+                  In summary, the Professionals Visa is designed for individuals
                   with a U.S. baccalaureate or foreign equivalent degree. While
                   it provides benefits such as permanent residency and a path to
                   U.S. citizenship, meeting the specific requirements, including

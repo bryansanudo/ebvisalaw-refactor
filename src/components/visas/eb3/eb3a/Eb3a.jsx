@@ -24,7 +24,8 @@ const Eb3a = ({ darkMode }) => {
     <>
       <Section
         darkMode={darkMode}
-        title="EB-3A (Skilled Workers)"
+        title="Skilled Workers Visa
+        "
         subtitle="The EB-3A visa is for skilled workers with at least two years of job experience or training. Employers can sponsor foreign workers with specific skills or expertise that are not readily available in the U.S. labor market."
       >
         <div className="w-full flex flex-col gap-6 md:gap-20 mb-20  ">
@@ -47,11 +48,12 @@ const Eb3a = ({ darkMode }) => {
                   today's entrepreneur
                 </h2> */}
                 <p className={`${styles.subtitle}`}>
-                  The EB-3A Visa, categorized under the employment-based visa
-                  group, is designed for skilled workers who seek employment in
-                  the United States and possess at least two years of training
-                  or experience in their respective field. Here's a systematic
-                  breakdown of the key aspects of the EB-3A Visa
+                  The Skilled Workers Visa, part of the employment-based visa
+                  group, is crafted for skilled workers seeking employment in
+                  the United States, possessing a minimum of two years of
+                  training or experience in their respective field. Here's a
+                  systematic breakdown of the key aspects of the Skilled Workers
+                  Visa.
                 </p>
               </div>
             </div>
@@ -86,11 +88,11 @@ const Eb3a = ({ darkMode }) => {
                 </h2> */}
 
                 <p className={`${styles.subtitle}`}>
-                  In summary, the EB-3A Visa offers benefits such as permanent
-                  residency and a path to U.S. citizenship for skilled workers.
-                  However, meeting the specific requirements, including skilled
-                  worker qualifications and the labor certification process, is
-                  essential for a successful application.
+                  In summary, the Skilled Workers Visa offers benefits such as
+                  permanent residency and a path to U.S. citizenship for skilled
+                  workers. However, meeting the specific requirements, including
+                  skilled worker qualifications and the labor certification
+                  process, is essential for a successful application.
                 </p>
               </div>
             </div>

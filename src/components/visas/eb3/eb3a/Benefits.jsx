@@ -6,17 +6,17 @@ const Benefits = ({ darkMode }) => {
       <div>
         <h2 className={`${styles.title}`}>Skilled Workers Category</h2>
         <p className={`${styles.subtitle}`}>
-          The EB-3A Visa falls under the "Skilled Workers" category, providing a
-          pathway for individuals with a specific skill set and at least two
-          years of training or experience.
+          The Skilled Workers Visa falls under the "Skilled Workers" category,
+          providing a pathway for individuals with a specific skill set and at
+          least two years of training or experience.
         </p>
       </div>
       <div>
         <h2 className={`${styles.title}`}>Permanent Residency</h2>
         <p className={`${styles.subtitle}`}>
-          Successful approval of the EB-3A Visa results in the granting of
-          permanent residency, allowing recipients to reside and work in the
-          United States indefinitely.
+          Successful approval of the Skilled Workers Visa results in the
+          granting of permanent residency, allowing recipients to reside and
+          work in the United States indefinitely.
         </p>
       </div>
       <div>

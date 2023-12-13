@@ -8,17 +8,18 @@ const Benefits = ({ darkMode }) => {
           No Job Offer or Labor Certification Required
         </h2>
         <p className={`${styles.subtitle}`}>
-          Similar to the EB-1A Visa, the EB-1B Visa does not mandate a specific
-          job offer from a U.S. employer, providing applicants with flexibility
-          in the application process.
+          Similar to other exceptional visas, the Outstanding Professor or
+          Researcher Visa does not mandate a specific job offer from a U.S.
+          employer, providing applicants with flexibility in the application
+          process.
         </p>
       </div>
       <div>
         <h2 className={`${styles.title}`}>Permanent Residency</h2>
         <p className={`${styles.subtitle}`}>
-          Successful approval of the EB-1B Visa leads to the grant of permanent
-          residency, allowing recipients to reside and work in the United States
-          indefinitely.
+          Successful approval of the Outstanding Professor or Researcher Visa
+          leads to the grant of permanent residency, allowing recipients to
+          reside and work in the United States indefinitely.
         </p>
       </div>
       <div>
@@ -30,21 +31,20 @@ const Benefits = ({ darkMode }) => {
       </div>
       <div>
         <h2 className={`${styles.title}`}>
-          {" "}
           Potentially Faster Processing Time
         </h2>
         <p className={`${styles.subtitle}`}>
-          The EB-1B Visa is often considered advantageous due to its potentially
-          faster processing time, offering an expedited pathway to permanent
-          residency.
+          The Outstanding Professor or Researcher Visa is often considered
+          advantageous due to its potentially faster processing time, offering
+          an expedited pathway to permanent residency.
         </p>
       </div>
       <div>
         <h2 className={`${styles.title}`}>No Numerical Cap</h2>
         <p className={`${styles.subtitle}`}>
-          Similar to the EB-1A Visa, there is no specific numerical cap on the
-          EB-1B Visa, distinguishing it from certain other employment-based
-          categories.
+          Similar to other outstanding visas, there is no specific numerical cap
+          on the Outstanding Professor or Researcher Visa, distinguishing it
+          from certain other employment-based categories.
         </p>
       </div>
     </section>

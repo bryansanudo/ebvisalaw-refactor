@@ -24,7 +24,8 @@ const Eb1b = ({ darkMode }) => {
     <>
       <Section
         darkMode={darkMode}
-        title="EB-1B (Outstanding Professors and Researchers)"
+        title="Outstanding Professor or Researcher Visa
+        "
         subtitle="The EB-1B visa targets internationally recognized professors and researchers. Applicants must showcase outstanding achievements in their academic or research careers, including a minimum of three years of experience."
       >
         <div className="w-full flex flex-col gap-6 md:gap-20 mb-20  ">
@@ -47,12 +48,11 @@ const Eb1b = ({ darkMode }) => {
                   today's entrepreneur
                 </h2> */}
                 <p className={`${styles.subtitle}`}>
-                  The EB-1B Visa, categorized as the Outstanding Professor or
-                  Researcher Visa, is a pathway within the United States
-                  immigration system tailored for individuals in academia or
-                  research who have demonstrated outstanding achievements.
-                  Here's an organized breakdown of the key elements of the EB-1B
-                  Visa
+                  The Outstanding Professor or Researcher Visa is a category
+                  within the United States immigration system tailored for
+                  individuals in academia or research who have demonstrated
+                  outstanding achievements. Here's an organized breakdown of the
+                  key elements of the Outstanding Professor or Researcher Visa
                 </p>
               </div>
             </div>
@@ -86,11 +86,12 @@ const Eb1b = ({ darkMode }) => {
                 </h2> */}
 
                 <p className={`${styles.subtitle}`}>
-                  In summary, the EB-1B Visa provides several advantages, such
-                  as the absence of a job offer requirement and a potentially
-                  faster processing time. However, meeting the stringent
-                  requirements related to outstanding achievements and providing
-                  compelling evidence is crucial for a successful application.
+                  In summary, the Outstanding Professor or Researcher Visa
+                  provides several advantages, such as the absence of a job
+                  offer requirement and a potentially faster processing time.
+                  However, meeting the stringent requirements related to
+                  outstanding achievements and providing compelling evidence is
+                  crucial for a successful application.
                 </p>
               </div>
             </div>

@@ -18,7 +18,7 @@ const Benefits = ({ darkMode }) => {
         <p className={`${styles.subtitle}`}>
           Successful approval of the EB-2 Visa results in the granting of
           permanent residency, allowing recipients to reside and work in the
-          United States indefinitely
+          United States indefinitely.
         </p>
       </div>
       <div>

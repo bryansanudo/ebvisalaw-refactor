@@ -3,6 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import styles from "@/style";
 
 import { MdNightsStay, MdWbSunny } from "react-icons/md";
+import { GoDot } from "react-icons/go";
 
 import { Link } from "react-router-dom";
 import logoRedBlack from "@/assets/logo-red-black.png";
@@ -35,17 +36,17 @@ const Navbar = ({ darkMode, setDarkMode }) => {
   const eb1 = [
     {
       id: 1,
-      name: "EB-1A",
+      name: "Extraordinary Ability Visa",
       link: "/eb1a",
     },
     {
       id: 2,
-      name: "EB-1B",
+      name: "Outstanding Professor or Researcher Visa",
       link: "/eb1b",
     },
     {
       id: 3,
-      name: "EB-1C",
+      name: "Multinational Manager or Executive Visa",
       link: "/eb1c",
     },
   ];
@@ -53,17 +54,17 @@ const Navbar = ({ darkMode, setDarkMode }) => {
   const eb3 = [
     {
       id: 1,
-      name: "EB-3A",
+      name: "Skilled Workers Visa",
       link: "/eb3a",
     },
     {
       id: 2,
-      name: "EB-3B",
+      name: "Professionals Visa",
       link: "/eb3b",
     },
     {
       id: 3,
-      name: "EB-3C",
+      name: "Unskilled Workers Visa",
       link: "/eb3c",
     },
   ];
@@ -118,11 +119,16 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                     <ul className="dropdown-content  z-[1]   shadow bg-base-100 dark:bg-accent w-52">
                       {eb1.map(({ id, link, name }) => (
                         <Link key={id} to={link}>
-                          <li
-                            className={`w-full duration-300 hover:font-semibold hover:text-primary`}
+                          <div
+                            className={`flex  justify-center items-start  hover:bg-primary hover:text-white  `}
                           >
-                            <p className="px-4 text-[14px]">{name}</p>
-                          </li>
+                            <div className="mt-[2px]">
+                              <GoDot className="text-md" />
+                            </div>
+                            <li className={`w-full duration-300 `}>
+                              <p className="text-[14px]">{name}</p>
+                            </li>
+                          </div>
                         </Link>
                       ))}
                     </ul>
@@ -151,11 +157,16 @@ const Navbar = ({ darkMode, setDarkMode }) => {
                     <ul className="dropdown-content  z-[1]   shadow bg-base-100 dark:bg-accent w-52">
                       {eb3.map(({ id, link, name }) => (
                         <Link key={id} to={link}>
-                          <li
-                            className={`w-full hover:font-semibold hover:text-primary duration-300`}
+                          <div
+                            className={`flex  justify-center items-start  hover:bg-primary hover:text-white  `}
                           >
-                            <p className="px-4 text-[14px]">{name}</p>
-                          </li>
+                            <div className="mt-[2px]">
+                              <GoDot className="text-md" />
+                            </div>
+                            <li className={`w-full duration-300 `}>
+                              <p className="text-[14px]">{name}</p>
+                            </li>
+                          </div>
                         </Link>
                       ))}
                     </ul>

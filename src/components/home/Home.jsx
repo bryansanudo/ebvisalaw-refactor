@@ -19,7 +19,7 @@ const Home = ({ darkMode }) => {
   }, []);
   return (
     <>
-      <div className={`dark:bg-accent mt-24 ${styles.flexStart} `}>
+      <div className={`dark:bg-accent  ${styles.flexStart} `}>
         <div className={`${styles.boxWidth}`}>
           <Hero darkMode={darkMode} />
         </div>

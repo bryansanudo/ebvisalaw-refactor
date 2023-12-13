@@ -25,7 +25,8 @@ const Eb1a = ({ darkMode }) => {
     <>
       <Section
         darkMode={darkMode}
-        title="EB-1A (Extraordinary Ability)"
+        title="Extraordinary Ability Visa
+        "
         subtitle="The EB-1A visa is for individuals with extraordinary abilities in sciences, arts, education, business, or athletics. Extraordinary ability is proven through sustained national or international acclaim, with evidence of significant contributions to the field."
       >
         <div className="w-full flex flex-col gap-6 md:gap-20 mb-20  ">
@@ -48,12 +49,12 @@ const Eb1a = ({ darkMode }) => {
                   today's entrepreneur
                 </h2> */}
                 <p className={`${styles.subtitle}`}>
-                  The EB-1A Visa, also known as the Extraordinary Ability Visa,
-                  is an immigrant visa category within the United States
-                  immigration system. This visa is designed for individuals who
-                  possess extraordinary abilities in their field, such as the
-                  sciences, arts, education, business, or athletics. Here's a
-                  rundown of the key aspects of the EB-1A Visa
+                  The Extraordinary Ability Visa is an immigrant visa category
+                  within the United States immigration system, catering to
+                  individuals who possess extraordinary abilities in their
+                  field, such as the sciences, arts, education, business, or
+                  athletics. Here's a rundown of the key aspects of the
+                  Extraordinary Ability Visa
                 </p>
               </div>
             </div>
@@ -87,12 +88,12 @@ const Eb1a = ({ darkMode }) => {
                 </h2> */}
 
                 <p className={`${styles.subtitle}`}>
-                  In summary, the EB-1A Visa offers numerous benefits, including
-                  the absence of a job offer requirement, permanent residency,
-                  and a potentially shorter processing time. However, meeting
-                  the stringent requirements and providing compelling evidence
-                  of extraordinary ability are essential for a successful
-                  application.
+                  In summary, the Extraordinary Ability Visa offers numerous
+                  benefits, including the absence of a job offer requirement,
+                  permanent residency, and a potentially shorter processing
+                  time. However, meeting the stringent requirements and
+                  providing compelling evidence of extraordinary ability are
+                  essential for a successful application.
                 </p>
               </div>
             </div>

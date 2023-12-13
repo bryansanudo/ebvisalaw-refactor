@@ -7,7 +7,7 @@ const Requirements = ({ darkMode }) => {
         <h2 className={`${styles.title}`}>Professionals Qualifications</h2>
         <p className={`${styles.subtitle}`}>
           Applicants must possess a U.S. baccalaureate or foreign equivalent
-          degree, and that a baccalaureate degree is the normal requirement to
+          degree, and a baccalaureate degree is the normal requirement to
           perform that role.
         </p>
       </div>
