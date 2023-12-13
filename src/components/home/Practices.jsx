@@ -27,7 +27,7 @@ const cards = [
     img: text,
     title: "EB-3 Visa",
     subtitle:
-      "Split into subcategories, EB-3 covers skilled workers (EB-3A), professionals (EB-3B), and unskilled workers (EB-3C). This visa accommodates diverse skill levels, providing pathways for individuals with varying qualifications seeking employment-based immigration.",
+      "Split into subcategories, EB-3 covers skilled workers, professionals, and unskilled workers. This visa accommodates diverse skill levels, providing pathways for individuals with varying qualifications seeking employment-based immigration.",
     link: "/eb3a",
   },
   {
