@@ -26,7 +26,7 @@ const Eb5 = ({ darkMode }) => {
     <>
       <Section
         darkMode={darkMode}
-        title="EB-5 Visa (Investors)"
+        title="Investors Visa"
         subtitle="The EB-5 Visa is designed for immigrant investors seeking to invest capital in a new commercial enterprise that creates jobs for U.S. workers. This program encourages foreign investment and economic growth in the United States."
       >
         <div className="w-full flex flex-col gap-6 md:gap-20 mb-20  ">
