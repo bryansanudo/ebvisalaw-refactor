@@ -1,4 +1,6 @@
 import styles from "@/style";
+import { useEffect, useState } from "react";
+import { FaArrowLeft, FaArrowRight } from "react-icons/fa";
 
 const FeedComponent = ({ darkMode }) => {
   const feed = [
@@ -3413,16 +3415,102 @@ const FeedComponent = ({ darkMode }) => {
       },
     },
   ];
+  const itemsPerPage = 20;
+  const [currentPage, setCurrentPage] = useState(1);
+
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentItems = feed.slice(indexOfFirstItem, indexOfLastItem);
+
+  const paginate = (pageNumber) => setCurrentPage(pageNumber);
+  const nextPage = () => {
+    if (currentPage < Math.ceil(feed.length / itemsPerPage)) {
+      setCurrentPage(currentPage + 1);
+    }
+  };
+
+  const prevPage = () => {
+    if (currentPage > 1) {
+      setCurrentPage(currentPage - 1);
+    }
+  };
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [currentPage]);
   return (
-    <div className="flex flex-col gap-8 mx-20">
-      {feed.map(({ guid, title, content_html, url }) => (
-        <div key={guid} className="flex flex-col border">
-          <a target="_blank" href={url}>
-            <p className={`${styles.title}`}>{title}</p>
-            <p className={`${styles.subtitle}`}>{content_html}</p>
-          </a>
+    <div
+      className={`dark:bg-accent mt-28   ${styles.paddingX} ${styles.flexCenter}`}
+    >
+      <div className={`${styles.boxWidth} `}>
+        <div
+          className={`  red__gradient md:absolute z-[0] w-[55%] h-[60%] -right-[50%] rounded-full  bottom-40`}
+        />
+        <div
+          className={`  pink__gradient absolute z-[0] w-[50%] h-[50%] -left-1/2 bottom-0 rounded-full `}
+        />
+        <div className="w-full flex justify-between items-center flex-col sm:mb-16 mb-6 relative z-[1]">
+          <h2
+            className={`font-semibold xs:text-[48px] text-[40px]  xs:leading-[76.8px] leading-[66.8px] w-full text-primary `}
+          >
+            Current Page {currentPage}
+          </h2>
         </div>
-      ))}
+        <section className=" flex flex-col items-center justify-center gap-12 mb-16  ">
+          {currentItems.map(({ guid, title, content_html, url }) => (
+            <div key={guid} className="flex  flex-col border-b  w-full">
+              <p className={`${styles.title}  mb-3`}>
+                <a target="_blank" href={url}>
+                  <span className="hover:border-b hover:border-primary hover:text-primary">
+                    {title}
+                  </span>
+                </a>
+              </p>
+              <p className={`${styles.subtitle} mb-3`}>{content_html}</p>
+            </div>
+          ))}
+
+          <div className="hidden md:flex  items-center w-full justify-center gap-4 ">
+            <button className="" onClick={prevPage}>
+              <FaArrowLeft className="dark:text-white" />
+            </button>
+
+            {Array.from({
+              length: Math.ceil(feed.length / itemsPerPage),
+            }).map((_, index) => (
+              <div
+                className={`cursor-pointer rounded-full h-8 w-8 flex items-center justify-center ${
+                  currentPage === index + 1 ? "bg-primary" : "bg-gray-600"
+                }  `}
+                key={index}
+                onClick={() => paginate(index + 1)}
+              >
+                <button className={` text-white`}>{index + 1}</button>
+              </div>
+            ))}
+
+            <button className="" onClick={nextPage}>
+              <FaArrowRight className="dark:text-white" />
+            </button>
+          </div>
+
+          <div className="flex items-center justify-start w-full gap-2 md:hidden">
+            <p className={`${styles.title}`}>Current Page</p>
+            <select
+              value={currentPage}
+              onChange={(e) => paginate(parseInt(e.target.value, 10))}
+              className="dark:bg-gray-800 dark:text-white px-2 py-1 border rounded"
+            >
+              {Array.from({
+                length: Math.ceil(feed.length / itemsPerPage),
+              }).map((_, index) => (
+                <option key={index} value={index + 1}>
+                  {index + 1}
+                </option>
+              ))}
+            </select>
+          </div>
+        </section>
+      </div>
     </div>
   );
 };
