@@ -23,6 +23,7 @@ import Eb5 from "@/components/visas/eb5/Eb5";
 
 import Terms from "@/components/TermsOfServices";
 import Privacy from "@/components/PrivacyPolicy";
+import FeedComponent from "@/components/FeedComponent";
 import { Routes, Route } from "react-router-dom";
 import { useState } from "react";
 
@@ -46,6 +47,7 @@ const App = () => {
           <Route path="/faq" element={<Faq darkMode={darkMode} />} />
           <Route path="/terms" element={<Terms darkMode={darkMode} />} />
           <Route path="/privacy" element={<Privacy darkMode={darkMode} />} />
+          <Route path="/rss" element={<FeedComponent darkMode={darkMode} />} />
 
           {/* eb1 */}
           <Route path="/eb1a" element={<Eb1a darkMode={darkMode} />} />

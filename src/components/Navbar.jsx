@@ -31,6 +31,11 @@ const Navbar = ({ darkMode, setDarkMode }) => {
       name: "Contact",
       link: "/contact",
     },
+    {
+      id: 7,
+      name: "RSS Feed",
+      link: "/rss",
+    },
   ];
 
   const eb1 = [
