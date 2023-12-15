@@ -33,7 +33,7 @@ const Navbar = ({ darkMode, setDarkMode }) => {
     },
     {
       id: 7,
-      name: "RSS Feed",
+      name: "News",
       link: "/rss",
     },
   ];

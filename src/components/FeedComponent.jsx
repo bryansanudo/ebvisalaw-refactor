@@ -3452,7 +3452,7 @@ const FeedComponent = ({ darkMode }) => {
           <h2
             className={`font-semibold xs:text-[48px] text-[40px]  xs:leading-[76.8px] leading-[66.8px] w-full text-primary `}
           >
-            Current Page {currentPage}
+            News Current Page {currentPage}
           </h2>
         </div>
         <section className=" flex flex-col items-center justify-center gap-12 mb-16  ">
