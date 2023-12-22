@@ -1,6 +1,5 @@
 import styles from "@/style";
-import shield from "@/assets/Shield.svg";
-import { FaStar } from "react-icons/fa";
+
 import { GrStatusGood } from "react-icons/gr";
 import { VscServerProcess } from "react-icons/vsc";
 import { MdDashboardCustomize } from "react-icons/md";

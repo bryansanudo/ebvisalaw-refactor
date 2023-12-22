@@ -1,12 +1,10 @@
 import styles from "@/style";
 
-import shield from "@/assets/Star.svg";
 import { SlLocationPin } from "react-icons/sl";
 import { MdSchedule } from "react-icons/md";
 import { MdOutlineMailOutline } from "react-icons/md";
 import { FaPhone } from "react-icons/fa";
 
-import { FaStar } from "react-icons/fa";
 import { useEffect } from "react";
 const cards = [
   {

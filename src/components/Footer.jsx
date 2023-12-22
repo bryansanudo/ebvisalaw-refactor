@@ -59,6 +59,9 @@ const Footer = ({ darkMode }) => {
           <Link to="/eb3a">EB-3</Link>
         </div>
         <div className={`${styles.subtitle} hover:font-medium cursor-pointer`}>
+          <Link to="/eb5">EB-5</Link>
+        </div>
+        <div className={`${styles.subtitle} hover:font-medium cursor-pointer`}>
           <Link to="/faq">FAQ</Link>
         </div>
       </nav>

@@ -2,9 +2,7 @@ import styles, { layout } from "@/style";
 
 import { FaStar } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import star from "@/assets/Star.svg";
-import shield from "@/assets/Shield.svg";
-import send from "@/assets/Send.svg";
+
 import { GrUserExpert } from "react-icons/gr";
 import { MdOutlineSecurity } from "react-icons/md";
 import { BiTransfer } from "react-icons/bi";

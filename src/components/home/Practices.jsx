@@ -1,14 +1,11 @@
 import styles from "@/style";
 
-import text from "@/assets/text.jpg";
-
-import shield from "@/assets/Shield.svg";
 import { Link } from "react-router-dom";
 
 const cards = [
   {
     id: 1,
-    img: text,
+    img: "",
     title: "EB-1 Visa",
     subtitle:
       "Designed for those with extraordinary abilities, outstanding professors, researchers, and certain executives or managers, the EB-1 Visa is a preferred option that doesn't require labor certification. ",
@@ -16,7 +13,7 @@ const cards = [
   },
   {
     id: 2,
-    img: text,
+    img: "",
     title: "EB-2 Visa",
     subtitle:
       "The EB-2 Visa targets individuals with advanced degrees or exceptional abilities in fields like science, arts, business, or education. It may require labor certification but offers a National Interest Waiver (NIW) option for exceptional qualifications.",
@@ -24,7 +21,7 @@ const cards = [
   },
   {
     id: 3,
-    img: text,
+    img: "",
     title: "EB-3 Visa",
     subtitle:
       "Split into subcategories, EB-3 covers skilled workers, professionals, and unskilled workers. This visa accommodates diverse skill levels, providing pathways for individuals with varying qualifications seeking employment-based immigration.",
@@ -32,7 +29,7 @@ const cards = [
   },
   {
     id: 4,
-    img: text,
+    img: "",
     title: "EB-5 Visa",
     subtitle:
       " The EB-5 Visa, part of the U.S. immigration system, is designed for investors seeking to make a significant investment in a new commercial enterprise in the United States.",
